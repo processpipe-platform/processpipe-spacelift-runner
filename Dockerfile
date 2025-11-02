@@ -1,4 +1,4 @@
-FROM public.ecr.aws/spacelift/runner:latest
+FROM public.ecr.aws/spacelift/runner-terraform:latest
 
 LABEL org.opencontainers.image.title="processpipe-spacelift-runner" \
       org.opencontainers.image.description="ProcessPipe customized Spacelift runner image with OpenSSL installed." \
